@@ -1,0 +1,54 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 30% 200px auto;
+    grid-gap: 1em;
+    }
+    
+    .grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+footer {
+    text-align: center;
+}    
+
+header,
+nav,
+column,
+footer {
+background: #91BAA2;
+padding: 1em;
+}
+
+header, footer {
+grid-column: 1 / 4;
+}
+
+column {
+min-width: 15em;
+}
+
+.content-wrap {
+    width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.contact-list {
+    text-align: center;
+    display: inline;
+    background: #91BAA2
+}
+
+.image-1 {
+    max-width: 200px;
+    max-height: 200px;
+    position: relative
+}
+
+
+  
